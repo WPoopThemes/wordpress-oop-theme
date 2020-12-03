@@ -18,7 +18,7 @@ class Actions extends ThemeController
       array(
         [
           'name' => 'render-pagination',
-          array($this, 'render_pagination')
+          'callback' => array($this, 'render_pagination')
         ]
       )
     )->register();

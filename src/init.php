@@ -20,7 +20,7 @@ final class Init
       Core\Taxonomies::class,
       Core\ThemeConf::class,
       Utils\CustomMenu::class,
-      Utils\Shortcodes::class
+      Utils\ShortcodeGenerator::class
     ];
   }
 
