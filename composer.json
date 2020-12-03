@@ -1,0 +1,16 @@
+{    
+  "name": "webtailor/starter-theme",
+  "type": "wordpress-theme",
+  "license": "GNU General Public License v2 or later",
+  "authors": [
+      {
+          "name": "Webtailor",
+          "email": "info@webtailor.pro"
+      }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WPTheme\\":"src"
+    }
+  }
+}
